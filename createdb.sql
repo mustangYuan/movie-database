@@ -44,11 +44,3 @@ CREATE TABLE movie_tags(
   FOREIGN KEY (mid) REFERENCES movies ON DELETE CASCADE,
   FOREIGN KEY (tagid) REFERENCES tags ON DELETE CASCADE
 );
-
-CREATE INDEX idxGenre ON movie_genres(genre);
-CREATE INDEX idxCountry ON movie_countries(country);
-CREATE INDEX idxLocation ON movie_locations(country);
-CREATE INDEX idxRating ON movies(all_critic_rating);
-CREATE INDEX idxReview ON movies(all_critic_num_reviews);
-CREATE INDEX idxYear ON movies(year);
-CREATE INDEX idxTag ON movie_tags(tagweight);
