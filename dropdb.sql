@@ -1,10 +1,3 @@
-DROP INDEX idxGenre;
-DROP INDEX idxCountry;
-DROP INDEX idxLocation;
-DROP INDEX idxRating;
-DROP INDEX idxReview;
-DROP INDEX idxYear;
-DROP INDEX idxTag;
 DROP TABLE movie_genres;
 DROP TABLE movie_countries;
 DROP TABLE movie_locations;
